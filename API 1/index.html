@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID</title>
+</head>
+
+<body>
+    <div class="titulos">
+        <h1>Casos de Covid-19 nos estados brasileiros</h1>
+        <h2>Descubra o numeros de casos, suspeitas e mortes por covid-19 nos estados do Brasil</h2>
+    </div>
+
+    <form id="form">
+        <input type="text" placeholder="Digite um CEP referente ao Estado" id="cep" data-js="cep">
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <div class="exibir">
+        <pre class="mt-4" id="cases"></pre>
+        <pre class="mt-4" id="suspects"></pre>
+        <pre class="mt-4" id="deaths"></pre>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
